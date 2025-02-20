@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CallStation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f80e0399310007a6e0c0245f44c97fdb29cb4c9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CallStation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CallStation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

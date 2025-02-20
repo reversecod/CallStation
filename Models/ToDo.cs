@@ -6,12 +6,12 @@ namespace CallStation.Models
     public class ToDo
     {
         [Key]
-        public int Id { get; set; }
+        public required int Id { get; set; }
 
-        [Column(TypeName ="string(50)"]
-        public string? NomeTarefa { get; set; }
+        [Column(TypeName ="varchar(50)")]
+        public required string NomeTarefa { get; set; }
 
-        [Column(TypeName = "string(50)"]
+        [Column(TypeName = "varchar(50)")]
         public string? Descricao { get; set; }
 
         public DateTime DataCriacao { get; set; } = DateTime.UtcNow;
