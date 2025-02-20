@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Chamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Chamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Data\\ApplicationDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\ApplicationDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\ToDo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ToDo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\models\\chamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:models\\chamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\models\\logchamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:models\\logchamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|c:\\users\\otavio\\documents\\codigos_otavio\\callstation\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFB936D-7264-42CC-82F4-B53F7F3FF121}|CallStation.csproj|solutionrelative:models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -67,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -87,55 +83,47 @@
               "RelativeToolTip": "Data\\ApplicationDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T14:16:43.894Z"
+              "WhenOpened": "2025-02-19T14:16:43.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Usuarios.cs",
               "RelativeDocumentMoniker": "Models\\Usuarios.cs",
               "ToolTip": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Usuarios.cs",
               "RelativeToolTip": "Models\\Usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:37:09.841Z"
+              "WhenOpened": "2025-02-18T20:37:09.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Chamados.cs",
               "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Chamados.cs",
               "RelativeDocumentMoniker": "Models\\Chamados.cs",
               "ToolTip": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\Chamados.cs",
               "RelativeToolTip": "Models\\Chamados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:41:43.778Z"
+              "WhenOpened": "2025-02-18T20:41:43.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LogChamados.cs",
-              "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\LogChamados.cs",
-              "RelativeDocumentMoniker": "Models\\LogChamados.cs",
-              "ToolTip": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\LogChamados.cs",
-              "RelativeToolTip": "Models\\LogChamados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:31:46.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ToDo.cs",
               "DocumentMoniker": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\ToDo.cs",
               "RelativeDocumentMoniker": "Models\\ToDo.cs",
               "ToolTip": "C:\\Users\\OTAVIO\\Documents\\codigos_otavio\\CallStation\\Models\\ToDo.cs",
               "RelativeToolTip": "Models\\ToDo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:33:52.576Z"
+              "WhenOpened": "2025-02-19T11:33:52.576Z",
+              "EditorCaption": ""
             }
           ]
         }

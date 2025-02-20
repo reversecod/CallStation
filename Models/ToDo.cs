@@ -5,12 +5,20 @@ namespace CallStation.Models
 {
     public class ToDo
     {
-            public int Id { get; set; }
-            public string NomeTarefa { get; set; } = string.Empty;
-            public string Descricao { get; set; } = string.Empty;
-            public DateTime DataCriacao { get; set; } = DateTime.UtcNow;
-            public bool Concluida { get; set; } = false;
-            public UrgenciaTarefa? Urgencia { get; set; }
+        [Key]
+        public int Id { get; set; }
+
+        [Column(TypeName ="string(50)"]
+        public string? NomeTarefa { get; set; }
+
+        [Column(TypeName = "string(50)"]
+        public string? Descricao { get; set; }
+
+        public DateTime DataCriacao { get; set; } = DateTime.UtcNow;
+
+        public bool Concluida { get; set; } = false;
+
+        public UrgenciaTarefa? Urgencia { get; set; }
     }
     public enum UrgenciaTarefa
     {

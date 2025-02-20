@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Data",
     "\\Models"
   ],
-  "SelectedNode": "\\CallStation.sln",
+  "SelectedNode": "\\Models\\Chamados.cs",
   "PreviewInSolutionExplorer": false
 }

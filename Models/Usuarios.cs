@@ -7,9 +7,12 @@ namespace CallStation.Models
     {
         [Key]
         public int Id { get; set; }
-        public required string Nome { get; set; }
-        public required string Senha { get; set; }
 
+        [Column(TypeName ="string(50)")]
+        public required string Nome { get; set; }
+
+        [Column(TypeName ="string(150)")]
+        public required string Senha { get; set; }
         // Relacionamento: Um usuário pode abrir vários chamados
         public List<Chamados> ChamadosAbertos { get; set; } = new();
     }
