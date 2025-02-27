@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace API.Dtos.ToDo
+namespace CallStation.Dtos.ToDo
 {
     public class ToDoDto
     {
@@ -18,5 +18,10 @@ namespace API.Dtos.ToDo
 
         [Range(0, 2, ErrorMessage = "Urgência deve estar entre 0 (Baixa) e 2 (Alta).")]
         public int Urgencia { get; set; } = 0; // 0 = Baixa, 1 = Média, 2 = Alta
+
+        internal object ToToDo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

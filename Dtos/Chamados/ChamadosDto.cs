@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API.Dtos.Chamados
+namespace CallStation.Dtos.Chamados
 {
     public class ChamadosDto
     {
@@ -8,5 +8,13 @@ namespace API.Dtos.Chamados
         public string? Descricao { get; set; }
         public DateTime DataAbertura { get; set; } // Removido o nullable, pois sempre tem valor
         public DateTime? DataFechamento { get; set; }
+        public int? UsuarioId { get; set; }
+    }
+}
+internal class ChamadoDto
+{
+    internal object ToChamado()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -1,29 +1,49 @@
-﻿using API.Data;
-using API.Interfaces;
-using API.Models;
-using CallStation.Data;
+﻿using CallStation.Data;
+using CallStation.Interfaces;
+using CallStation.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Repository
+namespace CallStation.Repository
 {
-    public class OperacoesRepository : IOperacoesRepo
+    public class CallStationRepository : ICallStationRepo
     {
         private readonly ApplicationDBContext _context;
-        public OperacoesRepository(ApplicationDBContext context)
+        public CallStationRepository(ApplicationDBContext context)
         {
             _context = context;
         }
-        public Task<List<Almoxarifados>> GetAlmoxarifados()
+        public Task<List<Usuarios>> GetUsuarios()
         {
-            return _context.Almoxarifados
-                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"almoxarifados"}")
+            return _context.Usuarios
+                .FromSqlInterpolated($"EXEC spGetAPICallStation @rota = {"usuarios"}")
                 .ToListAsync();
         }
-        public Task<List<Notas>> GetNotas()
+        public Task<List<Chamados>> GetChamados()
         {
-            return _context.Notas
-                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"notas"}")
+            return _context.Chamados
+                .FromSqlInterpolated($"EXEC spGetAPICallStation @rota = {"chamados"}")
                 .ToListAsync();
+        }
+        public Task<List<ToDo>> GetToDo()
+        {
+            return _context.ToDo
+                .FromSqlInterpolated($"EXEC spGetAPICallStation @rota = {"todo"}")
+                .ToListAsync();
+        }
+
+        public Task AddChamado(object chamado)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddToDo(object todo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddUsuario(object usuario)
+        {
+            throw new NotImplementedException();
         }
     }
 }

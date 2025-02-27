@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "ContainingType": "CallStation.Controllers.CallStationController",
+    "Method": "spGetAPICallStation",
+    "RelativePath": "CallStation/callstation/{rota}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rota",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CallStation.Controllers.CallStationController",
+    "Method": "spGetAPICallStation",
+    "RelativePath": "CallStation/callstation/{rota}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rota",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "requestBody",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,42 +1,59 @@
-﻿using API.Data;
-using API.Interfaces;
-using API.Mappers;
+﻿using CallStation.Data;
+using CallStation.Dtos.Chamados;
+using CallStation.Dtos.ToDo;
+using CallStation.Dtos.Usuarios;
+using CallStation.Interfaces;
+using CallStation.Mappers;
+using CallStation.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
 
-namespace API.Controllers
+namespace CallStation.Controllers
 {
-    [Route("api/operacoes")]
-    [ApiController]
-    public class OperacoesController : ControllerBase
+    [Route("CallStation/callstation")]
+    [CallStationController]
+    public class CallStationController : ControllerBase
     {
-        private readonly IOperacoesRepo _operacoesRepo;
+        private readonly ICallStationRepo _callstationRepo;
 
-        public OperacoesController(IOperacoesRepo operacoesRepo)
+        public CallStationController(ICallStationRepo callstationRepo)
         {
-            _operacoesRepo = operacoesRepo;
+            _callstationRepo = callstationRepo;
         }
 
         [HttpGet("{rota}")]
         //Chamada utilizando Procedure
-        public async Task<IActionResult> spGetAPIOperacoes(string rota)
+        public async Task<IActionResult> spGetAPICallStation(string rota)
         {
-            if (rota.ToLower() != "notas" && rota.ToLower() != "almoxarifados")
+            if (rota.ToLower() != "chamados" && rota.ToLower() != "usuarios" && rota.ToLower() != "todo")
                 return BadRequest();
 
-            if (rota.ToLower() == "notas")
+            if (rota.ToLower() == "chamados")
             {
-                var notas = await _operacoesRepo.GetNotas();
-                var notasDto = notas.Select(n => n.ToNotasDto());
-                return Ok(notasDto);
+                var chamados = await _callstationRepo.GetChamados();
+                var chamadosDto = chamados.Select(n => n.ToChamadosDto());
+                return Ok(chamadosDto);
+            }
+            else if (rota.ToLower() == "usuarios")
+            {
+                var usuarios = await _callstationRepo.GetUsuarios();
+                var usuariosDto = usuarios.Select(n => n.ToUsuariosDto());
+                return Ok(usuariosDto);
             }
             else
             {
-                var almoxarifados = await _operacoesRepo.GetAlmoxarifados();
-                var almoxarifadosDto = almoxarifados.Select(a => a.ToAlmoxarifadosDto());
-                return Ok(almoxarifadosDto);
+                var todo = await _callstationRepo.GetToDo();
+                var todoDto = todo.Select(a => a.ToToDoDto());
+                return Ok(todoDto);
             }
+        }
+
+        private class CallStationControllerAttribute : Attribute
+        {
         }
     }
 }
+
+
+

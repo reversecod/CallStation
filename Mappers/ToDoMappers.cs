@@ -1,9 +1,8 @@
-﻿using API.Dtos.ToDo;
-using API.Models;
+﻿using CallStation.Dtos.ToDo;
 using CallStation.Models;
 using System.Runtime.CompilerServices;
 
-namespace API.Mappers
+namespace CallStation.Mappers
 {
     public static class ToDoMappers
     {
@@ -15,7 +14,7 @@ namespace API.Mappers
                 Descricao = ToDoModel.Descricao,
                 DataCriacao = ToDoModel.DataCriacao,
                 Concluida = ToDoModel.Concluida,
-                Urgencia = ToDoModel.Urgencia
+                Urgencia = (int)ToDoModel.Urgencia
             };
 
         }

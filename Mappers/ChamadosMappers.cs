@@ -1,9 +1,8 @@
-﻿using API.Dtos.Chamados;
-using API.Models;
+﻿using CallStation.Dtos.Chamados;
 using CallStation.Models;
 using System.Runtime.CompilerServices;
 
-namespace API.Mappers
+namespace CallStation.Mappers
 {
     public static class ChamadosMappers
     {
@@ -11,10 +10,11 @@ namespace API.Mappers
         {
             return new ChamadosDto
             {
-                Titulo = ChamadosModel.Filial,
-                Descricao = ChamadosModel.Nome,
+                Titulo = ChamadosModel.Titulo,
+                Descricao = ChamadosModel.Descricao,
                 DataAbertura = ChamadosModel.DataAbertura,
                 DataFechamento = ChamadosModel.DataFechamento,
+                UsuarioId = ChamadosModel.UsuarioId
             };
 
         }
